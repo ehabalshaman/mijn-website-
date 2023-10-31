@@ -23,13 +23,13 @@ text-decoration: none;
 margin-right: 30px;
 font-size: 20px;
 }
-header a :hover{
-    background-color: rgb(10, 10, 10);
+header nav :hover{
+    background-color: red
 }
 
 footer{
-    padding: 300px 200px 50px 30px;
-    margin: 20px;
+    padding: 100px 200px 50px 30px;
+    margin: 200px 0px 10px 0;
     background-color: rgba(5, 5, 5, 0.192);
     text-align: center;
 
@@ -47,8 +47,8 @@ footer div{
     font-family: Verdana, sans-serif; font-size: 18px; color: black;
 }
 form{
-    margin: 5px;
-    padding: 10px;
+    margin: 10px;
+    padding: 0px;
 }
 
 h1{
@@ -59,3 +59,28 @@ embed{
     padding:0px;
     height:250px
 }
+img{
+
+    width: 150px;
+    margin: 20px;
+}
+
+
+ @media screen and (min-width: 0px) and (max-width: 600px) {
+    body {
+       background-color: lightblue;
+    }
+   }
+
+   @media screen and (min-width:600px) and (max-width:991px) {
+    body {
+        background-color: red;
+    }
+   }
+
+
+   media screen and (max-width: 400px) {
+    nav a:not(:first-child) {
+        display: block;
+    }
+
