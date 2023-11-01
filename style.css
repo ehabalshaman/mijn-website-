@@ -78,9 +78,3 @@ img{
     }
    }
 
-
-   media screen and (max-width: 400px) {
-    nav a:not(:first-child) {
-        display: block;
-    }
-
