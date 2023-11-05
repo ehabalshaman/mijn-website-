@@ -7,6 +7,7 @@ box-sizing: border-box;
 body{
     background-color: rgba(39, 19, 19, 0.37);
 }
+
 header{
  background-color: rgb(24, 22, 22);
  display: flex;
@@ -17,6 +18,7 @@ align-items: center;
 padding: 0px 100px;
 border-top: solid red 5px;
 }
+
 header a {
 color: rgb(255, 217, 1);
 text-decoration: none;
@@ -24,7 +26,7 @@ margin-right: 30px;
 font-size: 20px;
 }
 header nav :hover{
-    background-color: red
+    background-color:red
 }
 
 footer{
@@ -32,13 +34,24 @@ footer{
     margin: 200px 0px 10px 0;
     background-color: rgba(5, 5, 5, 0.192);
     text-align: center;
+}
 
+h2{
+    text-transform: uppercase;
 }
 
 footer div{
     font-weight: 900;
 
 }
+
+.formachtergrond{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
 .form{
     display: block;
     margin: 15px 0px;
@@ -68,7 +81,7 @@ img{
 
  @media screen and (min-width: 0px) and (max-width: 600px) {
     body {
-       background-color: lightblue;
+       background-color: red;
     }
    }
 
