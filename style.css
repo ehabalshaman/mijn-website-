@@ -25,8 +25,11 @@ text-decoration: none;
 margin-right: 30px;
 font-size: 20px;
 }
+
 header nav :hover{
-    background-color:red
+    background-color:red;
+    transition: 0,1ms;
+    
 }
 
 footer{
@@ -41,7 +44,7 @@ h2{
 }
 
 footer div{
-    font-weight: 900;
+    font-weight: 700;
 
 }
 
@@ -49,7 +52,7 @@ footer div{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+   height: 70vh;
 }
 
 .form{
@@ -68,26 +71,59 @@ h1{
     margin:0px;
 }
 embed{
-
+   width: 800px;
     padding:0px;
     height:250px
 }
 img{
 
     width: 150px;
-    margin: 20px;
-}
-
+   margin: 20px;}
 
  @media screen and (min-width: 0px) and (max-width: 600px) {
     body {
        background-color: red;
     }
-   }
+    header {
+        display: block;
+        margin: 60px;
+        line-height: 30px;   
+        padding: 40px;
+    }
+    header a{
+        font-size: 15px;
+    }
+    section div h3 p{
+        font-size: 300px;
+    }               
+    embed {
+        width: 495px;
+    }
+    img{
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+        margin: 100px;
+    }
+    form{
+        margin: 10px;
+    }
 
+    .formachtergrond {
+        margin-top: 0px;
+    }
+ footer {
+    justify-items: center;
+    margin: 20px;
+}
+
+.footer{
+justify-items: center;
+padding: 5px;
+}
+ }
    @media screen and (min-width:600px) and (max-width:991px) {
     body {
         background-color: red;
     }
    }
-
