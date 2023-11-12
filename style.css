@@ -80,15 +80,15 @@ img{
     width: 150px;
    margin: 20px;}
 
- @media screen and (min-width: 0px) and (max-width: 400px) {
+ @media screen and (min-width: 0px) and (max-width: 600px) {
     body {
        background-color: red;
     }
     header {
-        display: block;
+        display: inline-block;
         margin: 60px;
         line-height: 30px;   
-        padding: 40px;
+        padding: 20px;
     }
     header a{
         font-size: 15px;
@@ -107,6 +107,7 @@ img{
     }
     form{
         margin: 10px;
+        justify-content: center;
     }
 
     .formachtergrond {
@@ -127,3 +128,4 @@ padding: 5px;
         background-color: red;
     }
    }
+
